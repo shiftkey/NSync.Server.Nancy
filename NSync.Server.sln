@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSync.Server", "NSync.Server\NSync.Server.csproj", "{74949453-71D3-4952-95D6-89CD6F9FDCDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E7A3F743-AB61-4681-B200-9E37F4663F03}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSync.Core", "..\NSync\src\NSync.Core\NSync.Core.csproj", "{3D17D46A-A411-4922-B932-9EBE2AAE0ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74949453-71D3-4952-95D6-89CD6F9FDCDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74949453-71D3-4952-95D6-89CD6F9FDCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74949453-71D3-4952-95D6-89CD6F9FDCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74949453-71D3-4952-95D6-89CD6F9FDCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D17D46A-A411-4922-B932-9EBE2AAE0ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D17D46A-A411-4922-B932-9EBE2AAE0ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D17D46A-A411-4922-B932-9EBE2AAE0ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D17D46A-A411-4922-B932-9EBE2AAE0ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
